@@ -8,7 +8,26 @@
 #+LATEX_HEADER: \babelfont{rm}{Libertinus Serif}
 #+LATEX_COMPILER: lualatex
 #+options: num:0
+#+options: toc:nil
 
+
+
+#+LATEX_HEADER: \usepackage[margin=1in]{geometry}		% For setting margins
+#+LATEX_HEADER: \usepackage{amsmath}				% For Math
+#+LATEX_HEADER: \usepackage{fancyhdr}				% For fancy header/footer
+#+LATEX_HEADER: \usepackage{graphicx}				% For including figure/image
+#+LATEX_HEADER: \usepackage{cancel}					% To use the slash to cancel out stuff in work
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhead[LO,L]{ברק דיקר }
+#+LATEX_HEADER: \fancyhead[CO,C]{ECE305 - Homework Example}
+#+LATEX_HEADER: \fancyhead[RO,R]{\today}
+#+LATEX_HEADER: \fancyfoot[LO,L]{}
+#+LATEX_HEADER: \fancyfoot[CO,C]{\thepage}
+#+LATEX_HEADER: \fancyfoot[RO,R]{}
+#+LATEX_HEADER: \renewcommand{\headrulewidth}{0.4pt}
+#+LATEX_HEADER: \renewcommand{\footrulewidth}{0.4pt}
+
+#+LATEX: \newpage
 * שאלה 1
 ** סעיף א
 יהי
@@ -21,7 +40,7 @@
 בעזרת שימוש באינדקסים
 ** סעיף ב
 יהי
-\( A,B \in \mathbb{M} _{n*n} \)
+\( A,B \in \mathbb{M} _{n} \)
 מטריצות משולשות עליונות
 
 הראו כי המטריצה
