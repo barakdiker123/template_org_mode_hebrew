@@ -8,7 +8,7 @@
 #+LATEX_HEADER: \babelfont{rm}{Libertinus Serif}
 #+LATEX_COMPILER: lualatex
 #+options: num:0
-#+options: toc:nil
+
 
 
 
