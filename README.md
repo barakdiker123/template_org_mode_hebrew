@@ -10,7 +10,7 @@ C-c C-e h o
 
 Here are some photos 
 
-[picture](pictures/website_hebrew_example.png)
+![picture](pictures/website_hebrew_example.png)
 
 ## Export to pdf 
 For exporting into PDF hebrew one should click 
